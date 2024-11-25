@@ -3,7 +3,7 @@
     <h1 class="text-[50px] text-white">AML</h1>
     <input type="text" class="absolute right-0 ml-[10px] h-full radius-[20px] text-[20px]" placeholder="Search">
 </div>
-<div id="sidebar" class="fixed left-0 top-[5rem] bg-gray-500 w-[20rem] h-[95vh] flex flex-col opacity-0 z-50 transition-opacity duraction-900">
+<div id="sidebar" class="fixed left-0 top-[5rem] bg-gray-500 w-[20rem] h-[92vh] flex flex-col opacity-0 z-50 transition-opacity duraction-900">
     <ul class="text-center text-white w-full flex items-center">
         <x-side-bar-btn :csrf=false method="GET" route="/" name="Catalogue"></x-side-bar-btn>
     </ul>
